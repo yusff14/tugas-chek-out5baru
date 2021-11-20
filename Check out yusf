@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="yysufcheckout.css">
+    <title>Checkout Yusuf</title>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+       
+            <ul class="ul1">
+            <li class="bc1" ><a href="">Site Name</a></li>
+            <li class="bc2" ><a href="">Category 1</a></li>
+            <li class="bc3" ><a href="">Category 2</a></li>
+            <li class="bc3" ><a href="">Category 3</a></li>
+            <li class="bc5" ><i class="bi bi-search"></i></li>
+            <li class="bc6" ><i class="bi bi-cart4"></i>Cart(1)</li>
+            </ul>
+    </nav>
+    <hr>
+    </header>
+    <main>
+        <table class="tb1">
+            <tr>
+                <td>
+                    <img src ="kisspng-computer-icons-check-mark-presentation-symbol-check-list-5ac41357b91f09.8962641215227994477583.jpg" width="50px" height="50px" alt="Ceklist">
+                    <h4>Order 2102132021</h4>
+                    <h3>Thank You, Kenny!</h3>
+                    <table class="tb2">
+                        <thead>
+                            <tr>
+                                <th colspan="3" class="th1"><p>
+                                    Your Order is Confirmed.
+                                    <br>we've accepted your order and we're getting it ready
+                                    <br></p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th colspan="3" class="th2">
+                                    <p>
+                                        Custumer Information
+                                    </p></th>  
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td1">
+                                    <br>
+                                    <h4>Shipping Address</h4>
+                                    <p> Kenny Bostick
+                                    <br>12, Waido Point Road Mishauken,
+                                    <br>NY 11200 United States
+                                    </p>
+                                    <h4 class="h41">Shipping Method</h4>
+                                    <p>UPS Ground
+                                    <br>(Estimated ship time of 3-6 days)
+                                    </p></td>
+                                </td>
+                                <td class="td1">
+                                    <br><h4 class="h42">Billing Address</h4>
+                                    <p>Kenny Bostick
+                                    <br>12, Waido Point Road Mishauken,
+                                    <br>NY 11200 United States
+                                    </p>
+                                    <h4 class="h41">Payment Method</h4>
+                                     <p><i class="fa fa-cc-visa" style="font-size:20px"></i>
+                                        Ending in 3217-$35.60
+                                     </p> 
+                                </td>
+                                <td class="td2">
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="td3"></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+                <td>
+                    
+                    <table class="tb2">
+                        <thead>
+                            <tr>
+                                <th class="th3"><h3 >Summary (1 Item)</h3></th>
+                                <th class="th4"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                               <td class="td4"><p>Subtotal
+                                    <br>Shipping
+                                    <br>Est. Toxes
+                                    <br>
+                                    <br>Subtotal
+                                    <hr>
+                                    </p>
+                                    Gift card or Discount code
+                                    <br>
+                                    <input type="text" name="" id="Coupont discount" class="i1">
+                                    <hr>
+                                </td>
+                                <td class="td5"><p><b>IDR 30.00</b>
+                                        <br><b>IDR  3.20</b>
+                                        <br><b>IDR  2.40</b>
+                                        <br>
+                                        <br><b>IDR 35.60</b>
+                                        <hr>
+                                        </p>
+                                        <br>
+                                        <a href="" target="_blank"><input type="submit" value="Apply" class="su1"></a>
+                                        <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <br>
+                                <br>
+                                <br>
+                                <td class="td6" >
+                                    <p>Subtotal </p></td>
+                                    <td class="td7">
+                                    <p><b>IDR 35.60</b></p></td>    
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <br>
+    <footer class="ft1">
+        <ul class="ul1">
+            <li class="bc1">Site Name
+            <br>
+            <p><i class="fa fa-cc-visa" ></i>
+                <i class="fa fa-cc-mastercard" ></i>
+                <i class="fa fa-credit-card" ></i></p></li>
+            <li class="bc2" >Category 1</li>
+            <li class="bc3" >Category 2</li>
+            <li class="bc3" >Category 3</li>
+            <li class="bc5" ><p>Stay In Touch! Join Our<b>Newsletter</b></p>
+            <input type="text" name="email" value="enter your email" id="email"><input type="submit" value="Subcribe" class="su2">
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
